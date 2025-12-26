@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page base */
+body {
+  min-height: 100vh;
+  font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+  background: linear-gradient(135deg, #ffe29f, #ffa99f);
+  color: #333;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main content */
+.container {
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Info box */
+.info-box {
+  background: rgba(255, 255, 255);
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.value {
+  font-size: 1.2rem;
+}
+
+/* Rules section */
+.rules {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  padding: 1.5rem;
+  /*margin-bottom: 2rem;*/
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.rules h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.rules ul {
+  list-style: none;
+}
+
+.rules li {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.rules li::before {
+  content: "🐘 ";
+}
+
+/* Image */
+.image-wrapper {
+  padding: 1rem;
+  border-radius: 20px;
+  /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);*/
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
