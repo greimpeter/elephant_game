@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
 const translations = {
   de: {
     description: "<br>Neugierig?<br>Spiele mit uns, bekomme ein Geschenk und hab noch mächtig Spaß dabei!<br>",
-    time: "Beginn: 31.12.2025 - 18:30 Uhr",
+    time: "Beginn: 31.12.2025 - 21:00 Uhr",
     location: "Ort: Peter Sigmayr Platz 19, 39030 Mitterolang",
     rules_title: "🐾 Die Regeln",
     rule1: "Bringe ein Geschenk im Wert von unter 10€ mit",
@@ -31,7 +31,7 @@ const translations = {
 
   it: {
     description: "<br>Curioso?<br>Gioca con noi, ricevi un regalo e divertiti un sacco!<br>",
-    time: "Inizio: 31.12.2025 - 18:30",
+    time: "Inizio: 31.12.2025 - 21:00",
     location: "Luogo: Piazza Peter Sigmayr, 19, 39030 Valdaora di Mezzo BZ",
     rules_title: "🐾 Le regole",
     rule1: "Porta un regalo del valore inferiore a 10€",
@@ -41,7 +41,7 @@ const translations = {
 
   en: {
     description: "<br>Curious?<br>Play with us, get a gift, and have loads of fun!<br>",
-    time: "Starts on the 31st of December at 6:30 PM",
+    time: "Starts on the 31st of December at 9 PM",
     location: "Location: Peter Sigmayr Platz 19, 39030 Mitterolang",
     rules_title: "🐾 The Rules",
     rule1: "Bring a gift worth under €10",
