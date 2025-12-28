@@ -91,7 +91,7 @@ h1 {
 }
 
 .rules li::before {
-  content: "🐘 ";
+  content: "- ";
 }
 
 /* Image */
@@ -105,6 +105,32 @@ h1 {
   max-width: 100%;
   border-radius: 15px;
 }
+
+/* Language switch */
+.language-switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: white;
+  border-radius: 20px;
+  padding: 0.3rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.language-switch button {
+  border: none;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.language-switch button.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 
 /* Footer */
 footer {
